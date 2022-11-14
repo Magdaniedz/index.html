@@ -1,0 +1,118 @@
+html {
+  height: 100%
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+.right-col, .left-col {
+  color: #fff;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-col {
+  background-color: #003170;
+  color: #fff;
+  text-align: center;
+}
+
+.top-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+nav {
+  position:fixed;
+  z-index: 1;
+  left: 0;
+  right:0;
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 150px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+.experience h2 {
+color: #41ccc4;
+margin: 50px 0 50px 0;
+font-weight: bold;
+}
+
+.education h2 {
+  color: #003170;
+  margin: 50px 0 50px 0;
+  font-weight: bold;
+}
+
+.contact h2 {
+  color: #f3747b;
+  margin: 50px 0 50px 0;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+.experience h3 {
+color: #16736e;
+}
+
+.education h3 {
+  color: #306fbf;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Prata', serif;
+  font-weight: normal;
+}
+
+.extra-gutters {
+  padding: 0 30px;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+a {
+  letter-spacing: 3px;
+  color: #2ce6dc;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  line-height: 45px;
+}
+
+.navigation {
+text-align: center;
+font-family: 'Prata', serif;
+
+}
+.navigation li {
+  display: inline-block;
+  margin:0 15px;
+  color: #20c4bb;
+}
+
+.navigation li a{
+color: #20c4bb;
+text-decoration: none;
+
+}
